@@ -8,6 +8,6 @@ let startCount = function () {
     let getDayValue = getForm.day.value;
     let getMonthValue = getForm.month.value;
 
-     window.location.replace(`/count.html?name=${getName}&day=${getDayValue}&month=${getMonthValue}`);
+     window.location.replace(`count.html?name=${getName}&day=${getDayValue}&month=${getMonthValue}`);
      
 }
