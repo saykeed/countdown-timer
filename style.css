@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body{
+    background: url(images/moonnight.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Cambria', sans-serif;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3%;
+}
+
+/* styling for the home page */
+
+header h1{
+    color: red;
+    margin: 20px auto;
+}
+
+header p{
+    color: white;
+    font-weight: 600;
+}
+
+#box{
+    background: linear-gradient(hsl(273, 55%, 58%), hsl(240, 73%, 65%));;
+    padding: 4rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+#form{
+    padding: 5px;
+    margin: 10px 0;
+}
+
+#form input{
+    width: 100%;
+    margin: 5px 0;
+    height: 40px;
+    background: white;
+    border: none;
+    padding: 10px 5px;
+}
+
+#birthdate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    
+}
+
+#birthdate div{
+    width: 48%;
+    display: flex;
+    align-items: center;
+}
+
+#birthdate label{
+    color: white;
+}
+
+#birthdate select{
+    width: 100%;
+    height: 40px;
+    margin-left: 5px;
+}
+
+#submit{
+    padding: 10px 0;
+    background: red;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 130px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#submit:active{
+    background: green;
+}
+
+
+
+
+
+
+
+
+/* styling for the counting page */
+
+#wrap{
+    width: 100%;
+    text-align: center;
+}
+
+#head{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 40px;
+    color: red;
+}
+
+#user{
+    color: red;
+}
+
+#desc{
+    color: red;
+    font-weight: 600;
+}
+
+#countdown{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#countdown div{
+    width: 28%;
+    margin: 3% 2%;
+    background: rgba(255, 255, 255, 0.405);
+    padding: 20px 0;
+    text-align: center;
+}
+
+#countdown h1{
+    color: black;
+    font-size: 50px;
+}
+
+#countdown p{
+    color: black;
+    font-weight: 900;
+}
+
+#back{
+    margin: 20px auto;
+    width: fit-content;
+
+}
+
+#back a{
+    background: green;
+    padding: 10px 40px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+}
