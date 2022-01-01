@@ -40,7 +40,7 @@ let countdown = function () {
 
 if (new Date() > new Date(birthDay)) {
     alert("omo your Birthday don pass oooo if not pls check the day u input wella");
-    window.location.replace('/index.html');
+    window.location.replace('index.html');
 } else{
     setInterval(countdown, 100);
 }
